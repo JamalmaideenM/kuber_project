@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Pull Code From GitHub') {
+        stage('Pull Code from GitHub') {
             steps {
                 git 'https://github.com/JamalmaideenM/kuber_project'
             }
